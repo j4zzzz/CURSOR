@@ -1,0 +1,3 @@
+Hola, este es un archivo de prueba para el curso de Cursor.
+Cursor ayuda a programar en Python. Python es genial y Cursor también.
+Prueba prueba prueba.
