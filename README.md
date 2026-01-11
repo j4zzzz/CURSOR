@@ -41,3 +41,28 @@ Siguiendo la metodología del curso, apliqué el siguiente ciclo:
 2. Ejecuta el script:
    `python contador_palabras.py`
 3. Cuando pida el archivo, escribe: `texto_prueba.txt`
+
+
+---
+
+## 🛠 Ejercicios Adicionales de Consolidación
+
+Para reforzar el aprendizaje, se realizaron tres ejercicios extra abarcando lógica, algoritmos y ciencia de datos.
+
+### 3. Ejercicio A: Calculadora Interactiva (`/ejercicio_calculadora`)
+* **Reto:** Crear un bucle infinito que solo termine con el comando "salir".
+* **Aporte de la IA:** * Pregunté al chat: *"¿Cómo repito un ciclo hasta que el usuario ponga 'salir'?"*.
+    * Cursor sugirió la estructura `while True` con un `break` condicional.
+    * Ayudó a implementar el manejo de errores `try-except` para inputs no numéricos.
+
+### 4. Ejercicio B: FizzBuzz (`/ejercicio_fizzbuzz`)
+* **Reto:** Algoritmo clásico de entrevistas técnicas.
+* **Aporte de la IA:** * Probé la capacidad de **autocompletado (Tab)**.
+    * Solo escribí el encabezado del loop `for` y Cursor sugirió correctamente toda la lógica de los módulos `% 3` y `% 5`.
+
+### 5. Ejercicio C: Análisis de Datos (`/ejercicio_datos`)
+* **Reto:** Manipulación de CSV y generación de gráficas.
+* **Aporte de la IA:** * Escribió el código para importar `pandas` y cargar el CSV.
+    * Generó automáticamente el código de `matplotlib` para crear un gráfico de dispersión (scatter plot) con etiquetas correctas, algo que manualmente requiere recordar mucha sintaxis específica.
+
+---
