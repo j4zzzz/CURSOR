@@ -1,5 +1,5 @@
 # Tests generados automáticamente por Cursor
-# Prompt utilizado: "Genera un test unitario simple para verificar que la ruta home funciona"
+# "test unitario simple para verificar que la ruta home funciona"
 
 import pytest
 from app import app

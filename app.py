@@ -1,11 +1,11 @@
-# Generado con asistencia de Cursor AI
-# Objetivo: Crear una API simple con Flask para gestionar tareas
+#Generado con asistencia de Cursor AI
+#Objetivo: Crear una API simple con Flask para gestionar tareas
 
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-# Base de datos simulada en memoria
+#Base de datos simulada en memoria
 tasks = [
     {"id": 1, "title": "Aprender Cursor", "done": True},
     {"id": 2, "title": "Subir proyecto a GitHub", "done": False}
@@ -21,7 +21,7 @@ def get_tasks():
 
 @app.route('/tasks', methods=['POST'])
 def add_task():
-    # Cursor sugirió usar request.json para manejar la entrada
+    #Se sugirió usar request.json para manejar la entrada
     new_task = {
         "id": len(tasks) + 1,
         "title": request.json.get('title'),
